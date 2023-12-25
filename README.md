@@ -35,7 +35,7 @@ Program to find the LU Decomposition of a matrix.
 Developed by: Kolluru Pujitha
 RegisterNumber: 23002983
 */
-```
+
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 A=eval(input())
@@ -43,7 +43,7 @@ B=eval(input())
 lu,piv=lu_factor(A)
 P=lu_solve((lu,piv),B)
 print(P)
-
+```
 ## Output:
 ![Alt text](<Screenshot 2023-11-25 120153.png>)
 ![Alt text](<Screenshot 2023-11-25 120210.png>)
